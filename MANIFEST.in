@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include phone_shop *.css
+recursive-include phone_shop *.csv
+recursive-include phone_shop *.html
+recursive-include phone_shop *.ico
+recursive-include phone_shop *.js
+recursive-include phone_shop *.json
+recursive-include phone_shop *.md
+recursive-include phone_shop *.png
+recursive-include phone_shop *.py
+recursive-include phone_shop *.svg
+recursive-include phone_shop *.txt
+recursive-exclude phone_shop *.pyc
