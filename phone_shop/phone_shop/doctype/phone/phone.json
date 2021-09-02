@@ -1,0 +1,126 @@
+{
+ "actions": [],
+ "autoname": "PHONE.######",
+ "creation": "2021-09-02 08:14:27.481812",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "phone_name",
+  "model",
+  "type",
+  "processor",
+  "column_break_5",
+  "ram",
+  "phone_storage",
+  "imei_1",
+  "imei_2",
+  "photo",
+  "section_break_11",
+  "description"
+ ],
+ "fields": [
+  {
+   "allow_in_quick_entry": 1,
+   "fieldname": "phone_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Phone Name",
+   "reqd": 1
+  },
+  {
+   "allow_in_quick_entry": 1,
+   "fieldname": "model",
+   "fieldtype": "Data",
+   "label": "Model"
+  },
+  {
+   "allow_in_quick_entry": 1,
+   "fieldname": "type",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Type",
+   "options": "New\nOld",
+   "reqd": 1
+  },
+  {
+   "allow_in_quick_entry": 1,
+   "fieldname": "processor",
+   "fieldtype": "Data",
+   "label": "Processor"
+  },
+  {
+   "allow_in_quick_entry": 1,
+   "fieldname": "column_break_5",
+   "fieldtype": "Column Break"
+  },
+  {
+   "allow_in_quick_entry": 1,
+   "fieldname": "ram",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "RAM"
+  },
+  {
+   "allow_in_quick_entry": 1,
+   "fieldname": "phone_storage",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Phone Storage"
+  },
+  {
+   "allow_in_quick_entry": 1,
+   "fieldname": "imei_1",
+   "fieldtype": "Data",
+   "label": "IMEI 1"
+  },
+  {
+   "allow_in_quick_entry": 1,
+   "fieldname": "imei_2",
+   "fieldtype": "Data",
+   "label": "IMEI 2"
+  },
+  {
+   "allow_in_quick_entry": 1,
+   "fieldname": "photo",
+   "fieldtype": "Attach Image",
+   "label": "Photo"
+  },
+  {
+   "fieldname": "section_break_11",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Text Editor",
+   "label": "Description"
+  }
+ ],
+ "image_field": "photo",
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2021-09-02 08:23:01.300959",
+ "modified_by": "Administrator",
+ "module": "Phone Shop",
+ "name": "Phone",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "title_field": "phone_name",
+ "track_changes": 1
+}
